@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import MyFirstComponent from './components/MyFirstComponent';
+import HomePage from './pages/HomePage';
 import ArrayPage from './pages/ArrayPage';
 import FirstButton from './pages/FirstButton';
 import SecondButton from './pages/SecondButton';
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route path = "/" element = {<MyFirstComponent/>}/> 
+        <Route path = "/" element = {<HomePage/>}/> 
         <Route path = "/array" element = {<ArrayPage/>}/> 
         <Route path = "/button" element = {<FirstButton/>}/>
         <Route path = "/button2" element = {<SecondButton/>}/>

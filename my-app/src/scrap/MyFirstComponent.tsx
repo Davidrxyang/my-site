@@ -1,6 +1,6 @@
 const MyFirstComponent = () =>{
 
-    const name: string = "David";
+    const name: string = "Ruoxing (David) Yang";
 
     return(
         <div>
