@@ -1,2 +1,2 @@
 # my-site
-personal website
+ruoxingyang.xyz and related links, to test deployment
